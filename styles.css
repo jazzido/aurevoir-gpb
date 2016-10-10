@@ -1,0 +1,59 @@
+html,body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+
+  align-items: center;
+  justify-content: center;
+  background-color: f0f0f0;
+}
+
+main {
+  flex: 0 1 auto;
+  width: 50%;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Ovo', serif;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: 'Ovo', serif;
+  font-size: 20px;
+}
+
+article {
+  font-family: 'Muli', sans-serif;
+  margin-top: 20px;
+  font-size: 1.1em;
+  line-height: 1.2em;
+}
+
+article em {
+  font-style: italic;
+}
+
+article p {
+  margin-bottom: 1em;
+}
+
+a {
+  color: blue;
+}
+a:hover {
+  text-decoration: none;
+}

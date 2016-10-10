@@ -49,6 +49,7 @@ article em {
 
 article p {
   margin-bottom: 1em;
+  text-align: justify;
 }
 
 a {
